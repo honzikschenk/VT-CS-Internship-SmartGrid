@@ -1,0 +1,76 @@
+
+body {
+  background-image: url('https://img.freepik.com/free-vector/white-gray-geometric-pattern-background-vector_53876-136510.jpg?w=1380&t=st=1682540711~exp=1682541311~hmac=d6c15ae6a26aec89d4275ba9bbfc459bc8118027620dc638da9dab2f12e18643');
+  background-size: 100% 100% 100% 100%;
+  font-size: 20px;
+  padding: 30px;
+}
+
+hr {
+  margin: 20px;
+  border: 0.5px solid rgb(31, 35, 50);
+  border-radius: 1px;
+}
+
+.button {
+  width: 120px;
+  height: 40px;
+  transition-duration: 0.6s;
+}
+
+.button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+#desc {
+  text-align: left;
+  border: solid;
+  border-width: 0.5px;
+  border-radius: 15px;
+  padding: 15px;
+  margin: 10px 10% 10px 10%;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.flex1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.flex1 > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  width: 200px;
+  margin: 10px;
+  padding: 20px;
+}
+
+.boxstyle {
+  text-align: center;
+  padding: 30px;
+  border: solid;
+  border-width: 0.5px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.main {
+  background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg");
+  background-size: 100% 100%;
+}
+
+.p {
+  font-size: 80px;
+}
